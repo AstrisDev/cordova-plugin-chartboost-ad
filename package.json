@@ -1,0 +1,14 @@
+{
+  "name": "cordova-plugin-chartboost-ad",
+  "version": "1.0.1",
+  "description": "CHartboost plugin for cordova",
+  "cordova": {
+    "id": "cordova-plugin-chartboost-ad",
+    "platforms": []
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Astris Development",
+  "license": "MIT"
+}

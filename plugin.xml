@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="cordova-plugin-chartboost-ad" version="1.0.1">
+   <name>Chartboost</name>
+   <js-module name="Chartboost" src="www/Chartboost.js">
+      <clobbers target="Chartboost" />
+   </js-module>
+   <platform name="android">
+      <config-file parent="/*" target="res/xml/config.xml">
+         <feature name="Chartboost">
+            <param name="android-package" value="cordova.plugin.chartboost_ad.Chartboost" />
+         </feature>
+      </config-file>
+      <config-file parent="/*" target="AndroidManifest.xml" />
+      <source-file src="src/android/Chartboost.java" target-dir="src/cordova/plugin/chartboost_ad/Chartboost" />
+   </platform>
+</plugin>
